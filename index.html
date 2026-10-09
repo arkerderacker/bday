@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="--bg:#fff8ed;--surface:#ffffff;--surface2:#fff0d8;--text:#24172b;--muted:#766879;--primary:#ff6b8a;--primary2:#ffc36b;--accent:#7c6cff;--accent2:#e8e4ff;--green:#39c987;--border:rgba(48,28,50,.12);">
+<html lang="en" style="--bg:#fff8ed;--surface:#ffffff;--surface2:#fff0d8;--text:#24172b;--muted:#766879;--primary:#ff6b8a;--primary2:#ffc36b;--accent:#7c6cff;--accent2:#e8e4ff;--green:#39c987;--bor[...]
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -375,7 +375,7 @@
           <div class="float-heart">🎈</div>
           <div class="float-star">✦</div>
           <div class="character-card">
-            <img src="assets/alya1.jpg" alt="Birthday celebration picture">
+            <img src="alya1.jpg" alt="Birthday celebration picture">
             <div class="character-tag">🎂 YOUR DAY. YOUR MAGIC. ✨</div>
           </div>
         </div>
@@ -403,7 +403,7 @@
               <h3>MAKE<br>A WISH<br>✨</h3>
               <p>May this next chapter bring you unexpected happiness, people who make you laugh, and memories you'll look back on with a smile.</p>
             </div>
-            <div class="playground-image"><img src="assets/alya2.jpg" alt="A special birthday memory"></div>
+            <div class="playground-image"><img src="alya2.jpg" alt="A special birthday memory"></div>
           </div>
         </div>
       </section>
@@ -414,14 +414,14 @@
           <h2 class="section-title reveal">SAVE THE<br>GOOD STUFF. 💫</h2>
           <div class="moments-grid">
             <article class="moment-card moment-small reveal">
-              <img src="assets/alya3.jpg" alt="A happy birthday memory">
+              <img src="alya3.jpg" alt="A happy birthday memory">
               <div class="moment-caption">
                 <strong>More reasons to smile 🎈</strong>
                 <p>Here's to laughter, love, and all the little things that make this day feel extra magical.</p>
               </div>
             </article>
             <article class="moment-card moment-large reveal">
-              <img src="assets/alya2.jpg" alt="A birthday celebration picture">
+              <img src="alya2.jpg" alt="A birthday celebration picture">
               <div class="moment-caption">
                 <strong>One for the memory book. ✨</strong>
                 <p>May this year bring you the kind of joy that feels like sunlight on your face and peace in your heart.</p>
@@ -459,9 +459,7 @@
       birthdayForm.addEventListener("submit", (event) => {
         event.preventDefault();
         if (birthdayInput.value.trim() !== "101011") {
-          birthdayError.textContent = "That birthday answer isn’t quite right. Try again!";
-          birthdayInput.value = "";
-          birthdayInput.focus();
+          window.location.href = "https://youtu.be/lIsTm0lGzY4";
           return;
         }
         birthdayError.textContent = "";
